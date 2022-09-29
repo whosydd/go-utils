@@ -1,16 +1,3 @@
-# go-utils
-
-## 安装
-
-```sh
-go get -u github.com/whosydd/go_utils
-```
-
-## 使用
-
-### 判断文件或者文件夹是否存在
-
-```go
 package main
 
 import (
@@ -28,5 +15,3 @@ func main() {
 	}
 	fmt.Printf("flag: %v\n", flag)
 }
-```
-
