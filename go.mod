@@ -1,3 +1,3 @@
-module github.com/whosydd/go_utils
+module github.com/whosydd/goutils
 
 go 1.19

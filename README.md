@@ -3,7 +3,7 @@
 ## 安装
 
 ```sh
-go get -u github.com/whosydd/go_utils
+go get -u github.com/whosydd/goutils
 ```
 
 ## 使用
@@ -16,12 +16,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/whosydd/go_utils"
+	"github.com/whosydd/goutils"
 )
 
 func main() {
 	dst := "../LICENSE.md"
-	flag, err := go_utils.IsExist(dst)
+	flag, err := goutils.IsExist(dst)
 	if err != nil {
 		fmt.Println(err.Error())
 		return
@@ -29,4 +29,3 @@ func main() {
 	fmt.Printf("flag: %v\n", flag)
 }
 ```
-
