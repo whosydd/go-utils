@@ -10,7 +10,7 @@ go get -u github.com/whosydd/goutils
 
 ## 使用
 
-### 判断文件或者文件夹是否存在
+### `IsExist`: 判断文件或者文件夹是否存在
 
 ```go
 package main
